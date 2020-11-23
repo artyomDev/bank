@@ -1,0 +1,82 @@
+<app-navbar></app-navbar>
+<!-- Start Subheader -->
+        <div class="sub-header p-relative">
+            <div class="overlay overlay-bg-black"></div>
+            <div class="pattern"></div>
+            <div class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="sub-header-content p-relative">
+                                <h1 class="text-custom-white lh-default fw-600">Loan Steps</h1>
+                                <ul class="custom">
+                                    <li> <a routerLink="/" class="text-custom-white">Home</a>
+                                    </li>
+                                    <li class="text-custom-white active">Loan Steps</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Subheader -->
+        <!-- Start Loan steps -->
+        <section class="section-padding loan-steps">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="step-wrapper">
+                            <div class="icon-box">
+                                <img src="assets/images/loan-step-icon.png" alt="img">
+                            </div>
+                            <h4 class="text-custom-black text-center fw-600">Tell us why you're looking for a loan</h4>
+                            <form>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <div class="custom-radio">
+                                                <input id="loanstep1" checked="" name="loanstep" type="radio">
+                                                <label for="loanstep1">Debt Consolidation</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-radio">
+                                                <input id="loanstep2" name="loanstep" type="radio">
+                                                <label for="loanstep2">Credit card refinancing</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-radio">
+                                                <input id="loanstep3" name="loanstep" type="radio">
+                                                <label for="loanstep3">Home improvement</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-radio">
+                                                <input id="loanstep4" name="loanstep" type="radio">
+                                                <label for="loanstep4">Major purchase</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control form-control-custom custom-select">
+                                                <option>More options</option>
+                                                <option>Medical Expenses</option>
+                                                <option>Car Financing</option>
+                                                <option>Moving/relocation</option>
+                                                <option>Business</option>
+                                                <option>Special Occasion</option>
+                                                <option>Wedding</option>
+                                            </select>
+                                        </div>
+                                        <button type="submit" class="btn-first btn-submit-fill text-custom-white full-width">Continue</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start Loan steps -->
+        <app-footer></app-footer>
